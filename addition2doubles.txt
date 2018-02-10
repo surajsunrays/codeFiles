@@ -1,0 +1,11 @@
+fun main(args: Array<String>)
+{
+    var num1:Double
+    var num2:Double
+    val result:Double
+    num1=156832.54698
+    num2=6418451.544
+    result=num1+num2
+    println("Result of Addition of above numbers is :"+result)
+
+}

@@ -1,0 +1,40 @@
+
+import java.util.*
+
+class Student1
+{
+
+    var name:String=""
+
+    var percentage:Int=0
+
+    fun Ask()
+    {
+        var sc=Scanner(System.`in`)
+        println("Enter Student Name")
+        name=sc.nextLine()
+        println("Enter Student percentage")
+        percentage=sc.nextInt()
+    }
+    fun Display()
+    {
+     if (percentage<=80)
+        println("Student pass with Distinction")
+      else if (percentage<=60)
+         println("First Class")
+        else if (percentage<=50)
+         println("Second Class")
+        else if (percentage<=40)
+         println("You Are Pass!!")
+        else
+         println("Failed")
+    }
+}
+fun main(args: Array<String>) {
+
+    var sobj=Student1()
+    sobj.Ask()
+    println("Name of Student is :"+sobj.name)
+    println("Percentage of Student is :"+sobj.percentage)
+    sobj.Display()
+}

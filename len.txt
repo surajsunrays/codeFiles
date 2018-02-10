@@ -1,0 +1,10 @@
+import java.util.*
+
+fun main(args: Array<String>) {
+    var sc=Scanner(System.`in`)
+
+    println("Enter any String")
+    var name=sc.nextLine()
+    var cal=name.length
+    println(cal)
+}
